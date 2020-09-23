@@ -3,7 +3,7 @@ SQLi or SQL injection is a web application vulnerability allows an attacker to b
 ## Blind SQLi
 Another type of sql injection attack where error does not shown to the user.
 ### How to indentify blind SQLi:
-Test it by making payloads true, for eg.:
+Test it by making payloads **TRUE**, for eg.:
   `1' and 1 = 1 #` this statement is true and should return the normal data
   `1' and 1 = 2 #` this statement is false and will not return any data without showing any error.
 
@@ -45,3 +45,6 @@ Ps: sometimes you might need to add ';' before the comment, examples:
 anD 1=1//
 anD 1=1;//
 ```
+
+#### Writing files:
+UniOn selEct null,[file content] inTo outfile '/location/to/write/file/to' /*
