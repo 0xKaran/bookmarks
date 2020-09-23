@@ -45,6 +45,8 @@ Ps: sometimes you might need to add ';' before the comment, examples:
 anD 1=1//
 anD 1=1;//
 ```
+#### Reading files:
+UniOn selEct 1,load_file('file location') /*
 
 #### Writing files:
 UniOn selEct null,[file content] inTo outfile '/location/to/write/file/to' /*
