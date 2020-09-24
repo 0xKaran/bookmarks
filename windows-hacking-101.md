@@ -15,8 +15,7 @@ Anti-viruses flag files as malicious by looking at its **signatures, string & be
 If file contains the string or words already highlighted as malicious or it behaves suspiciously like using uncommon port, 
 sending data to remote server accessing data which it is not intended to have.
 
-> How to make backdoor undetectable if it is still detectable by few anti-viruses?
-
+#### How to make backdoor undetectable if it is still detectable by few anti-viruses?
 - Remove all malicious strings from the file. for eg.: _mimikatz_
 - For signature based AV bypassing edit the file from every aspect by editing, removing or even by adding thing to the file, so that it outputs different signature.
 - Find out which part of file is being flagged by AV.
