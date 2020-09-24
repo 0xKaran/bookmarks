@@ -1,7 +1,7 @@
 # Let's _hack windows_ systems by various techniques & tools!
 
 #### Windows evil files:
-- Backdoor
+- Backdoor (eg: zLogger)
 - Keylogger
 - Password recovery tool
 
