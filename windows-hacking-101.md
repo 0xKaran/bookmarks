@@ -1,9 +1,9 @@
 # Let's _hack windows_ systems by various techniques & tools!
 
 #### Windows evil files:
-- Backdoor (eg: zLogger)
-- Keylogger
-- Password recovery tool
+- Backdoor (eg: Quasur RAT, metasploit)
+- Keylogger (eg: zLogger)
+- Password recovery tool (eg: LaZagne, mimikatz)
 
 #### Tools to generate Fully Undetectable backdoors (FUD):
 - Veil
@@ -22,3 +22,7 @@ sending data to remote server accessing data which it is not intended to have.
   - Slice the binary in various sizes. For eg.: **File Name**: mimikatz.exe **File Size**: 1200050 byts
     - Let's slice it into first half: `head -c 600025 mimikatz.exe > firsthalfmimikatz.exe`
       - After finding, edit in hex editor or remove it after decompiling the source code from the main file.
+
+### POST ABOVE
+- Kon boot
+- oph crack
