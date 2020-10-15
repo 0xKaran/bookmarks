@@ -44,3 +44,4 @@ This payload was from a CTF solution by @Blaklis_. I had originally thought it m
 ___________________________________________________________________________________________________
 ___________________________________________________________________________________________________
 [XSS Polygot](https://github.com/0xsobky/HackVault/wiki/Unleashing-an-Ultimate-XSS-Polyglot)
+[XSS to Internal File Read](https://blog.dixitaditya.com/leveraging-xss-to-read-internal-files/)
